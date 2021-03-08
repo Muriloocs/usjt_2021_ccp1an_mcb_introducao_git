@@ -6,6 +6,14 @@ private double bonus
 private String nome;
 private int idade;
 
+public int getTipo() {
+    retrurn tipo;
+}
+
+public void setTipo(int tipo) {
+    this.tipo = tipo;
+}
+
 public double calcularalario;
 switch (tipo) {
     case 1:
