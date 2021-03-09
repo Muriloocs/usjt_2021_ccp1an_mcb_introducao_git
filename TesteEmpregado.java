@@ -1,10 +1,8 @@
-import jdk.tools.jlink.internal.SymLinkResourcePoolEntry;
-
 public class TesteEmpregado {
     public static void main(String[] args){
-        Empregado e1 = new Empregado();
-        Empregado e2 = new Empregado();
-        Empregado e3 = new Empregado();
+        empregado e1 = new empregado();
+        empregado e2 = new empregado();
+        empregado e3 = new empregado();
         e1.setTipo(1);
         e2.setTipo(2);
         e3.setTipo(3);

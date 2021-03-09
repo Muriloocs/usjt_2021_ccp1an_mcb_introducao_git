@@ -1,13 +1,13 @@
-piblic class Empregado
+public class empregado{
 private int tipo;
 private double salario;
 private double comissao;
-private double bonus
+private double bonus;
 private String nome;
 private int idade;
 
 public int getTipo() {
-    retrurn tipo;
+    return tipo;
 }
 
 public void setTipo(int tipo) {
