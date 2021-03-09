@@ -14,7 +14,7 @@ public void setTipo(int tipo) {
     this.tipo = tipo;
 }
 
-public double calcularalario();
+public double calcularalario(){;
 switch (tipo) {
     case 1:
        return salario;
@@ -24,6 +24,7 @@ switch (tipo) {
         return salario+ bonus;
     default:
         return 0;
+    }
 }
 
 public int getIdade() {
